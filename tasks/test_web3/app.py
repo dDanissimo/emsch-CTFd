@@ -4,6 +4,9 @@ import os
 from dotenv import load_dotenv
 
 app = Flask(__name__)
+"""
+Инициализация объекта Flask-приложения
+"""
 
 load_dotenv('./env')
 
@@ -24,7 +27,13 @@ def create_database():
     """
     
     conn = sqlite3.connect(DATABASE)
+    """
+    Объект, представляющий собой набор данных с credentials для подключения к базе данных
+    """
     cursor = conn.cursor()
+    """
+    Объект, служащий в роли интерпретатора SQL-запросов
+    """
     
     cursor.execute('''
         CREATE TABLE IF NOT EXISTS users (

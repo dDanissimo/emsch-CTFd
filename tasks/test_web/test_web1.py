@@ -4,10 +4,16 @@ from app import app as flask_app
 
 @pytest.fixture
 def app():
+    """
+    Предоставление начальных данных о настройках веб-приложения
+    """
     yield flask_app
 
 @pytest.fixture
 def client(app):
+    """
+    Предоставление начальных данных о тестовом клиенте веб-приложения
+    """
     return app.test_client()
 
 def test_home_page(client):

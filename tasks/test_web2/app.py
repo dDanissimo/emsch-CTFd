@@ -3,11 +3,17 @@ import os
 import logging
 from logging.handlers import RotatingFileHandler
 
-# Инициализация веб-приложения
 app = Flask(__name__)
+"""
+Инициализация объекта веб-приложения
+"""
 
 # Logging
 handler = RotatingFileHandler('app.log', maxBytes=10000, backupCount=1)
+"""
+Объект handler модуля logging, осуществляет вывод логов в файл
+"""
+
 handler.setLevel(logging.INFO)
 app.logger.addHandler(handler)
 

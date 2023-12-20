@@ -1,8 +1,10 @@
 from flask import Flask, render_template
 import logging
 
-# Инициализация flask-приложения
 app = Flask(__name__)
+"""
+Инициализация объекта Flask-приложения
+"""
 
 # Функционал логирования
 logging.basicConfig(filename='app.log', level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
