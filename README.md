@@ -12,6 +12,11 @@
 * [Docs: Getting Started](https://docs.ctfd.io/tutorials/getting-started/)
 * [Docs: Deployment options](https://docs.ctfd.io/docs/deployment/installation)
 
+## Задача проекта
+### Обеспечить школьникам в рамках образовательного курса по информационной безопасности в Экономико-математической школе при ЭФ МГУ (ЭМШ) доступ к платформе, которая способна улучшить образовательный процесс за счёт учёта выполнения домашних/самостоятельных/контрольных работ с дополнительными функциями.
+### [Ссылка на подтверждающий документ](https://github.com/dDanissimo/emsch-CTFd/files/13722909/2.pdf)
+
+
 ## Функционал
 
 1. Доменное имя с зарегистрированным SSL-сертификатом на этот домен (возможен доступ к ресурсу по HTTPS).
@@ -89,8 +94,17 @@ NB! Значение SECRET_KEY, согласно документации, до
 ## Demo
 
 https://emsch.ddanissimo.ru/
-## Credits
+
+## Авторские права:
 
 - Logo by [Laura Barbera](http://www.laurabb.com/)
 - Theme by [Christopher Thompson](https://github.com/breadchris)
 - Notification Sound by [Terrence Martin](https://soundcloud.com/tj-martin-composer)
+
+## Скриншоты интерфейса
+![image](https://github.com/dDanissimo/emsch-CTFd/assets/56019205/5043b06b-269d-49a2-a642-5cc60ce8a84f)
+![image](https://github.com/dDanissimo/emsch-CTFd/assets/56019205/57e2849b-e9fe-4e1d-a610-fcf6b4395c3e)
+![image](https://github.com/dDanissimo/emsch-CTFd/assets/56019205/21571447-462e-4487-8b4b-dddc8af45d20)
+![image](https://github.com/dDanissimo/emsch-CTFd/assets/56019205/7f55f50c-dced-46f6-9d1c-e604cfecd97d)
+![image](https://github.com/dDanissimo/emsch-CTFd/assets/56019205/65e76c95-e0b0-432e-9dc4-869ff959f9d7)
+![image](https://github.com/dDanissimo/emsch-CTFd/assets/56019205/42e7ffa5-1158-4f4e-af04-f635d08bb2ad)
